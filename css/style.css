@@ -1,0 +1,351 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+.container {
+	width: 80%;
+}
+.header {
+	width: 100%; 
+	height: 80px; 
+	float: left;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+}
+.header_container {
+	float: left;
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between;
+}
+.header img {
+	width: 50px;
+}
+.menu a{
+	color: #636363; 
+	text-decoration: none;
+	font-weight: bold; 
+}
+.menu a:not(:first-child) {
+	margin-left: 35px;
+}
+.menu a:hover {
+	color: #59b69c;
+}
+.intro {
+	width: 100%; 
+	height: 1300px; 
+	float: left;
+	background-color: #fefefe;
+	display: flex;
+	justify-content: center; 
+}
+.intro_container {
+	float: left;
+	display: flex;
+	flex-direction: column;  
+}
+.intro_text {
+	margin-top: 50px;
+}
+.intro_text h1 {
+	font-family: Trebuchet MS;
+	color: #5b5b5b;
+}
+.intro_text p {
+	margin-top: 10px;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #5b5b5b;
+}
+.intro_img {
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-image: url(https://justcreative.com/wp-content/uploads/2020/12/envato-Craft-Branding-Mock-up.jpeg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-top: 40px;
+}
+.intro_img h3 {
+	width: 320px;
+	background-color: white;
+	padding: 10px 10px; 
+	font-weight: 400;
+	margin-left: 30px;
+	color: #5b5b5b;
+}
+.intro_img p {
+	width: 400px;
+	background-color: white; 
+	padding: 10px 10px;
+	margin-left: 30px;
+	margin-top: 5px; 
+	margin-bottom: 30px;
+	color: #5b5b5b;
+}
+.intro_img a {
+	text-decoration: none; 
+	color: #59b69c;
+}
+.function_block img {
+	width: 50px;
+}
+.function_text {
+	margin-left: 500px;
+	margin-top: 90px; 
+	color: #5b5b5b;
+}
+.function {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between; 
+}
+.function_block {
+	width: 250px;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	border: 6px double #d1d1d1;
+	padding: 70px 10px;
+}
+.function_block p {
+	text-align: center;
+	color: #5b5b5b;
+}
+.function_block h3 {
+	color: #5b5b5b;
+	margin-top: 20px;
+}
+.process {
+	width: 100%; 
+	height: 400px; 
+	float: left;
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	background-image: url(https://wallpaperaccess.com/full/268363.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #585657;
+}
+.process_block img {
+	width: 50px;
+	border-radius: 50px;
+	padding: 20px 20px;
+	border: 2px solid #1fb99d;
+	background-color: #41433e;
+}
+.process_container {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;  
+	justify-content: center;
+}
+.process_blocks {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.process_blocks hr {
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-right: 10px;
+	width: 120px; 
+	height: 0.01px;
+	background-color: black; 
+}
+.process_block p {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: white; 
+}
+.process_block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.process_text {
+	display: flex; 
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center;
+}
+.process_text p {
+	width: 800px;
+	margin-top: 20px; 
+	text-align: center;
+	color: #a6a6a6;
+}
+.process_text h2 {
+	color: white;
+}
+.projects {
+	width: 100%; 
+	height: 550px; 
+	float: left;
+	background-color: #fdfdfd;
+	display: flex;
+	justify-content: center;
+}
+.projects_container {
+	float: left; 
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	color: #5b5b5b;
+}
+.projects_blocks {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.projects_block {
+	width: 300px;
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+}
+.projects_block a {
+	text-decoration: none; 
+	color: #59b69c;
+}
+.projects_blocks img {
+	width: 290px;
+	height: 200px;
+}
+.projects_blocks p {
+	width: 300px;
+	text-align: center;
+}
+.projects_container h2 {
+	margin-left: 450px;
+	margin-top: 20px;
+}
+.feedback {
+	width: 100%; 
+	height: 280px; 
+	float: left;
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+	background-image: url(https://c8.alamy.com/comp/EJ96K1/modern-glass-skyscraper-background-EJ96K1.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-color: #444849;	
+}
+.feedback_container {
+	float: left;
+	display: flex;
+	align-items: center;  
+	justify-content: center;
+}
+.feedback_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feedback_text h2 {
+	color: white; 
+	margin-top: 20px;
+}
+.feedback_text p {
+	width: 800px;
+	text-align: center;
+	color: #a6a6a6;
+}
+.feedback_text a {
+	text-decoration: none; 
+	color: #59b69c;
+}
+.journal {
+	width: 100%; 
+	height: 550px; 
+	float: left;
+	background-color: #fdfdfd;
+	display: flex;
+	justify-content: center;
+}
+.journal_container {
+	float: left; 
+	display: flex;
+	flex-direction: column; 
+}
+.journal_blocks {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.journal_block {
+	width: 340px;
+	display: flex; 
+	flex-direction: column; 
+}
+.journal_block a {
+	text-decoration: none; 
+	color: #59b69c;
+}
+.journal_blocks img {
+	width: 330px;
+	height: 220px;
+}
+.journal_block_box {
+	display: flex;
+	justify-content: space-evenly;
+}
+.journal_block_box img {
+	width: 35px;
+	height: 35px;
+}
+.img {
+	width: 20px;
+}
+h4 {
+	font-weight: bold;
+}
+.journal_blocks p {
+	width: 340px;
+	text-align: justify;
+	margin-top: 10px; 
+}
+.journal_container h2 {
+	margin-left: 500px;
+	margin-top: 40px;
+}
+.contacts {
+	width: 100%; 
+	height: 400px; 
+	float: left;
+	background-color: #383838;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contacts_blocks {
+	display: flex;
+	justify-content: space-between;
+	color: #a6a6a6;
+}
+.contacts_block {
+	width: 250px;
+}
+.contacts_block h3 {
+	color: white;
+}
+.footer {
+	width: 100%; 
+	height: 60px; 
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.footer_container p {
+	color: #a6a6a6;
+}
